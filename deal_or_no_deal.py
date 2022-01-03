@@ -40,9 +40,9 @@ for rounds in range(6,1,-1):
     print(f"PICK {rounds} CASES\n")
     for ind_round in range(rounds):
         case=input(f"\npick case number {ind_round+1}- ")
-        """for sec_2 in range(3,0,-1):
+        for sec_2 in range(3,0,-1):
             print(f"{sec_2}", end="..")
-            sleep(1)"""
+            sleep(1)
         print("\n",case_value[case],"\n")
         values.remove(case_value[case])
         cases.remove(case)
