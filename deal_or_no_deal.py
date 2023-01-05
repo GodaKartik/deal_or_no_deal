@@ -22,8 +22,7 @@ shuffle(cases)
 values=[10,20,30,40,50,60,70,80,90,100,200,500,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000,50000]
 shuffle(values)
 case_value={}
-for i in range(len(cases)):
-    case_value[cases[i]]=values[i]
+case_value=dict(zip(cases,values))
 
 start=input("DEAL OR NO DEAL\n\nTYPE START TO START THE GAME-  ")
 print("\n\nGame starts in..")
